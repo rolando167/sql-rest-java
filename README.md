@@ -2,11 +2,12 @@
 
 # 💻 💎 Java - Sql server - PL/SQL 2024
 
-> crud usuarios al 20%
+> crud usuarios al 99% y Procedicimento almacenado
 
 ## 📌 Feactures
 
- * ✔ One
+ * ✔ Archicho impor.sql - contiene los imports
+ * ✔ Archicho data-test con los endpoints utiles 
 
 ## 🌐 Installation
 
@@ -40,7 +41,7 @@ $ npm run start:prod
 
 ## 📝 Notas
 
-Pull requests are welcome.
+[URL](http://localhost:9000/api/users/listar)
 
 Please make sure to update tests as appropriate.
 
