@@ -21,8 +21,8 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public List<User> listarSP() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'listarSP'");
+        return userRepository.listarUserSP(Long.valueOf(0));
+        //throw new UnsupportedOperationException("Unimplemented method 'listarSP'");
     }
 
     @Override

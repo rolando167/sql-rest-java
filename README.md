@@ -53,6 +53,7 @@ Please make sure to update tests as appropriate.
 ```python
 # returns 'words'
  * https://www.baeldung.com/spring-data-jpa-stored-procedures
+ * https://stackoverflow.com/questions/67537747/how-to-call-a-stored-procedure-in-spring-boot
  * 
 
 ```
