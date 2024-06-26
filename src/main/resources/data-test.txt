@@ -1,0 +1,24 @@
+POST : http://localhost:9000/api/users/save
+{
+    "name": "Raikod",
+    "last_name": "Alvarez",
+    "email": "raikod@tes.com",
+    "password": "203277854",
+    "status": "0"
+}
+
+
+
+DELETE : http://localhost:9000/api/users/1
+
+
+
+UPDATE : http://localhost:9000/api/users/update/1
+
+{
+    "name": "Lucc",
+    "last_name": "SAnchez",
+    "email": "lucc@tes.com",
+    "password": "88874501",
+    "status": "0"
+}

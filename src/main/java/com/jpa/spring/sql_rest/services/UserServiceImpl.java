@@ -1,6 +1,7 @@
 package com.jpa.spring.sql_rest.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,35 +12,35 @@ import com.jpa.spring.sql_rest.repositories.IUserRepository;
 @Service
 public class UserServiceImpl implements IUserService {
 
-    @Autowired private IUserRepository iUserRepository;
+    @Autowired private IUserRepository userRepository;
 
     @Override
     public List<User> listar() {
-        return iUserRepository.findAll();
+        return userRepository.findAll();
     }
 
     @Override
-    public User findById(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+    public Optional<User> findById(int id) {
+         return userRepository.findById(id);
     }
 
     @Override
     public void save(User user) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'save'");
+        userRepository.save(user);
     }
 
     @Override
     public void update(User user, int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'update'");
+        user.setId(Long.valueOf(id));
+        userRepository.save(user);
     }
 
     @Override
     public void delete(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'delete'");
+        Optional<User> user = userRepository.findById(id);
+        if (user.isPresent()) {
+            userRepository.delete(user.get());
+        }
     }
 
 }
