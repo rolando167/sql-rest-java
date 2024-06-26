@@ -20,6 +20,12 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
+    public List<User> listarSP() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'listarSP'");
+    }
+
+    @Override
     public Optional<User> findById(int id) {
          return userRepository.findById(id);
     }

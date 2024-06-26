@@ -52,7 +52,8 @@ Please make sure to update tests as appropriate.
 
 ```python
 # returns 'words'
- * https...
+ * https://www.baeldung.com/spring-data-jpa-stored-procedures
+ * 
 
 ```
 
