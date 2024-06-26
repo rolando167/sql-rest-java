@@ -1,0 +1,2 @@
+ insert into dbo.users(created_at, name, last_name, email, password, status ) values(  GETDATE(), 'Lucc', 'Martinez', 'lucc@test.com', '123456', 0 )
+ insert into dbo.users(created_at, name, last_name, email, password, status ) values(  GETDATE(), 'Lola', 'Suarez', 'lola@test.com', '114455', 0 )
