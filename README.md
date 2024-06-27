@@ -2,7 +2,7 @@
 
 # 💻 💎 Java - Sql server - PL/SQL 2024
 
-> crud usuarios al 99% y Procedicimento almacenado listar
+> crud usuarios al 99% y Procedimiento almacenado listar
 
 ## 📌 Feactures
 
