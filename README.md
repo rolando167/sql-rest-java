@@ -2,12 +2,14 @@
 
 # 💻 💎 Java - Sql server - PL/SQL 2024
 
-> crud usuarios al 99% y Procedicimento almacenado listar 
+> crud usuarios al 99% y Procedicimento almacenado listar
 
 ## 📌 Feactures
 
  * ✔ Archicho impor.sql - contiene los imports
- * ✔ Archicho data-test con los endpoints utiles 
+ * ✔ Archicho data-test con los endpoints utiles
+ * ✔ Api Rest Sql server DB_LOCAL
+ * ✔
 
 ## 🌐 Installation
 
