@@ -1,5 +1,4 @@
 package com.jpa.spring.sql_rest.models;
-import java.sql.Timestamp;
 import java.util.Date;
 
 import org.hibernate.annotations.CreationTimestamp;

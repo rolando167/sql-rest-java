@@ -6,8 +6,8 @@
 
 ## 📌 Feactures
 
- * ✔ Archicho impor.sql - contiene los imports
- * ✔ Archicho data-test con los endpoints utiles
+ * ✔ Archivo impor.sql - contiene los imports
+ * ✔ Archivo data-test con los endpoints utiles
  * ✔ Api Rest Sql server DB_LOCAL
  * ✔
 

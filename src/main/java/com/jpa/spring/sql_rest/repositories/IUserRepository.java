@@ -1,7 +1,5 @@
 package com.jpa.spring.sql_rest.repositories;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
